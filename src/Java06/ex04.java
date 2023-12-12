@@ -55,6 +55,7 @@ public class ex04 {
 			case 6:
 				int Outros = 0;
 				Outros++;
+				
 
 			}
 			System.out.println("Escolha uma opção ");
