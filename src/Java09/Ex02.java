@@ -27,14 +27,10 @@ public class Ex02 {
 		String nome;
 
 		do {
-
 			System.out.println("\nEscolha uma opção: ");
-			System.out.println("1: Adicionar um novo livro na pilha.\r\n" 
-		  + "2: Listar todos os livros da Pilha\r\n"
-		  + "3: Retirar um livro da pilha \r\n" 
-		  + "0: Sair da Aplicação. \r\n" + "");
+			System.out.println("1: Adicionar um novo livro na pilha.\r\n" + "2: Listar todos os livros da Pilha\r\n"
+					+ "3: Retirar um livro da pilha \r\n" + "0: Sair da Aplicação. \r\n" + "");
 			op = scanner.nextInt();
-
 			switch (op) {
 			case 1:
 				scanner.nextLine();
@@ -68,13 +64,9 @@ public class Ex02 {
 
 			default:
 				System.out.println("Opção Inválida!!");
-
 			}
-
 		} while (op != 0);
-
 		scanner.close();
-
 	}
 
 }
